@@ -6,3 +6,7 @@ data.replace({'Gender': {'Male': 1, 'Female': 0}}, inplace=True)
 data.replace({'Education': {'Graduate': 1, 'Not Graduate': 0}}, inplace=True)
 data.replace({'Self_Employed': {'No': 0, 'Yes': 1}}, inplace=True)
 data.replace({'Property_Area': {'Urban': 2, 'Rural': 0, 'Semiurban':1}}, inplace=True)
+
+#Separating labels
+X =data.drop(columns=['Loan_ID','Loan_Status'], axis=1)
+Y = data['Loan_Status']
