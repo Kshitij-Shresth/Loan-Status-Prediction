@@ -32,7 +32,14 @@ The dataset is split into training and test sets using an 90-10 split. Stratifie
 ```
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1, stratify=Y, random_state=7)
 ```
+### Model Training
+A Support Vector Classifier (SVC) with a linear kernel is trained on the dataset.
 
+```
+classifier = svm.SVC(kernel='linear')
+classifier.fit(X_train, Y_train)
+
+```
 ![image](https://github.com/user-attachments/assets/49d5286e-12ce-4090-a22d-662d33761ba0)
 
 ![image](https://github.com/user-attachments/assets/5cf04f7e-5bd1-420a-b3f3-b8a7df18ec6d)
