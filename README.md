@@ -1,6 +1,8 @@
 # Loan-Status-Prediction
 
-The pipeline includes preprocessing steps for categorical feature encoding, generating a correlation heatmap for feature interaction analysis, and training a linear SVM to assess the likelihood of loan approval (binary classification).
+The pipeline includes preprocessing steps for categorical feature encoding, generating a correlation heatmap for feature interaction analysis, and training a linear SVM to assess the likelihood of loan approval (binary classification). In a market context, this project mimics the decision-making process used by financial institutions for loan risk assessment. By encoding categorical variables such as employment status, property area, and education level, the model transforms qualitative data into quantitative insights. The SVM algorithm is particularly suitable due to its effectiveness in high-dimensional spaces, making it a strong candidate for binary classification problems in finance where margins between approved and denied loans may be subtle.
+
+This framework serves as a prototype for building scalable loan approval models that financial institutions can use to automate risk evaluation, improve accuracy in decision-making, and minimize default rates.
 
 ## Code Workflow
 
