@@ -38,7 +38,12 @@ A Support Vector Classifier (SVC) with a linear kernel is trained on the dataset
 ```
 classifier = svm.SVC(kernel='linear')
 classifier.fit(X_train, Y_train)
+```
+### Model Evaluation
+After training the model, predictions are made on the training set. The accuracy score is calculated, which achieves approximately 80% accuracy.
 
+```
+training_data_accuracy = accuracy_score(X_train_prediction, Y_train)
 ```
 ![image](https://github.com/user-attachments/assets/49d5286e-12ce-4090-a22d-662d33761ba0)
 
