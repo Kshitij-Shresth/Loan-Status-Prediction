@@ -1,6 +1,15 @@
 # Loan-Status-Prediction
 
-Loan Approval system 
+Support Vector Machine classifier to predict loan approval status using a dataset with various socio-economic and loan-related features. 
+
+## Code Workflow
+
+### Data Preprocessing
+Heatmap Generation: The numerical columns in the dataset are selected, and a heatmap is created to visualize the correlation between the features using seaborn.
+```
+numeric_data = data.select_dtypes(include=[np.number])
+sns.heatmap(numeric_data.corr(), annot=True, cmap='coolwarm', linewidths=0.5)
+```
 
 ![image](https://github.com/user-attachments/assets/49d5286e-12ce-4090-a22d-662d33761ba0)
 
