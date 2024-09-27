@@ -4,6 +4,8 @@ The pipeline includes preprocessing steps for categorical feature encoding, gene
 
 This framework serves as a prototype for building scalable loan approval models that financial institutions can use to automate risk evaluation, improve accuracy in decision-making, and minimize default rates.
 
+## Training Accuracy: ~80%
+
 ## Code Workflow
 
 ### Data Preprocessing
@@ -24,7 +26,7 @@ Feature Encoding: Categorical features are encoded into numerical values for use
 
 ```Education```: Graduate (1), Not Graduate (0)
 
-```Self_Employed```: Self-Employed (Yes -> 1),Not Self-Employed (No -> 0)
+```Self_Employed```: Self-Employed (Yes -> 1), Not Self-Employed (No -> 0)
 
 ```Property_Area```: Urban (2), Rural (0), Semiurban (1)
 
