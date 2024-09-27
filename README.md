@@ -12,11 +12,11 @@ Heatmap Generation: The numerical columns in the dataset are selected, and a hea
 numeric_data = data.select_dtypes(include=[np.number])
 sns.heatmap(numeric_data.corr(), annot=True, cmap='coolwarm', linewidths=0.5)
 ```
-Encoding: Categorical features are encoded into numerical values for use in machine learning
+Feature Encoding: Categorical features are encoded into numerical values for use in machine learning
 
-```Loan_Status```: Y (1), N (0)
+```Loan_Status```: Approved Y (1), Not Approved N (0)
 
-```Dependents```: 3+ (4)
+```Dependents```: Number of Dependents 3+ (4)
 
 ```Married```: Yes (1), No (0)
 
