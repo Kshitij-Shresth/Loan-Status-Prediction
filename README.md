@@ -16,15 +16,15 @@ Feature Encoding: Categorical features are encoded into numerical values for use
 
 ```Loan_Status```: Approved Y (1), Not Approved N (0)
 
-```Dependents```: Number of Dependents 3+ (4)
+```Dependents```: Number of Dependents (3+ -> 4)
 
-```Married```: Yes (1), No (0)
+```Married```: Married (Yes -> 1), Not Married (No -> 0)
 
 ```Gender```: Male (1), Female (0)
 
 ```Education```: Graduate (1), Not Graduate (0)
 
-```Self_Employed```: Yes (1), No (0)
+```Self_Employed```: Self-Employed (Yes -> 1),Not Self-Employed (No -> 0)
 
 ```Property_Area```: Urban (2), Rural (0), Semiurban (1)
 
