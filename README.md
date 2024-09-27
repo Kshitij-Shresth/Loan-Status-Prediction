@@ -26,6 +26,13 @@ Encoding: Categorical features are encoded into numerical values for use in mach
 
 ```Property_Area```: Urban (2), Rural (0), Semiurban (1)
 
+### Data Splitting
+The dataset is split into training and test sets using an 90-10 split. Stratified sampling is used to maintain the proportion of labels in both sets. The random seed is set to 7 based on the observed training and test mean values.
+
+```
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1, stratify=Y, random_state=7)
+```
+
 ![image](https://github.com/user-attachments/assets/49d5286e-12ce-4090-a22d-662d33761ba0)
 
 ![image](https://github.com/user-attachments/assets/5cf04f7e-5bd1-420a-b3f3-b8a7df18ec6d)
