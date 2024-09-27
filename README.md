@@ -11,13 +11,20 @@ numeric_data = data.select_dtypes(include=[np.number])
 sns.heatmap(numeric_data.corr(), annot=True, cmap='coolwarm', linewidths=0.5)
 ```
 Encoding: Categorical features are encoded into numerical values for use in machine learning
-Loan_Status: Y (1), N (0)
-Dependents: 3+ (4)
-Married: Yes (1), No (0)
-Gender: Male (1), Female (0)
-Education: Graduate (1), Not Graduate (0)
-Self_Employed: Yes (1), No (0)
-Property_Area: Urban (2), Rural (0), Semiurban (1)
+
+```Loan_Status```: Y (1), N (0)
+
+```Dependents```: 3+ (4)
+
+```Married```: Yes (1), No (0)
+
+```Gender```: Male (1), Female (0)
+
+```Education```: Graduate (1), Not Graduate (0)
+
+```Self_Employed```: Yes (1), No (0)
+
+```Property_Area```: Urban (2), Rural (0), Semiurban (1)
 
 ![image](https://github.com/user-attachments/assets/49d5286e-12ce-4090-a22d-662d33761ba0)
 
