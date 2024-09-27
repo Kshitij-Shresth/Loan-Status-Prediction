@@ -1,6 +1,6 @@
 # Loan-Status-Prediction
 
-Support Vector Machine classifier to predict loan approval status using a dataset with various socio-economic and loan-related features. 
+The pipeline includes preprocessing steps for categorical feature encoding, generating a correlation heatmap for feature interaction analysis, and training a linear SVM to assess the likelihood of loan approval (binary classification).
 
 ## Code Workflow
 
